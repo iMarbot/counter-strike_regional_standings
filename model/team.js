@@ -30,6 +30,7 @@ class TeamMatch {
         this.teamNumber = ( match.team1 === team ) ? 1 : 2;
         this.isWinner   = match.winningTeam === this.teamNumber;
         this.opponent   = ( this.teamNumber === 1 ) ? match.team2 : match.team1;
+        this.isLan      = match.lan;
     }
 }
 
@@ -116,7 +117,7 @@ class Team {
         function curveFunction( x ) { return Math.pow( 1 / ( 1 + Math.abs(Math.log10(x)) ), 1 ); }
         function powerFunction( x ) { return Math.pow( x, 1 ) };
         function getPrizePool( x ) { return Math.max(1, x.team.eventMap.get( x.match.eventId ).event.prizePool ) };
-        function getLAN( x ) { return x.team.eventMap.get( x.match.eventId ).event.lan ? 1 : 0 };
+        function getLAN( x ) { return x.isLan ? 1 : 0 };
 
         let bucketSize = 10; // used for all factors that track your top N results
 
