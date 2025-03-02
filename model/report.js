@@ -104,7 +104,7 @@ function displayRankings( teams, regions = [0,1,2], strDate ) {
     output += '\n' + tableString + '\n';
 
     output += formatLine( '', true );
-    output += formatLine( '_Event data for Regional Standings provided by HLTV.org_' );
+    output += formatLine( '_Event data for Regional Standings provided by Liquipedia.net_' );
 
     //console.log( output );
     return output;
@@ -112,8 +112,7 @@ function displayRankings( teams, regions = [0,1,2], strDate ) {
 
 
 
-function displayTeamRankingSummary( team, teams, strDate ){
-    
+function displayTeamRankingSummary( team, teams, strDate ) {
     let roster = sortCaseInsensitive( team.players.map( el=> el.nick ) ).join(', ');
     let minSeedValue = Math.min( ...teams.map(t => t.seedValue ) );
     let maxSeedValue = Math.max( ...teams.map(t => t.seedValue ) );
@@ -123,15 +122,15 @@ function displayTeamRankingSummary( team, teams, strDate ){
     output += formatLine( `### Roster Details`);
     output += formatLine( `Team Name: ${ team.name }` );
     output += formatLine( `Roster: ${ roster }` );
-    output += formatLine( `Global Rank: [${ team.globalRank }](../../standings_global${ format })`);
+    output += formatLine( `Global Rank: [${ team.globalRank }](../standings_global${ format })`);
     output += formatLine( '' );
 
     team.region.forEach( (r, idx) => {
         if ( r === 1 ){
             let region = RegionList[ idx ];
             let regionFile = `standings_${ RegionList[ idx ].toLowerCase() }`; 
-            output += formatLine( `Region: [${ region }]( ../../${ regionFile }${ format })` );            
-            output += formatLine( `Regional Rank: [${ team.regionalRank[ idx ] }]( ../../${ regionFile }${ format })` );
+            output += formatLine( `Region: [${ region }]( ../${ regionFile }${ format })` );            
+            output += formatLine( `Regional Rank: [${ team.regionalRank[ idx ] }]( ../${ regionFile }${ format })` );
             output += formatLine( '' ); 
         }
     });    
