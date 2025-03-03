@@ -4,11 +4,11 @@ Roster: ifan, isaac, MMS, Rhys, Ziimzey<br />
 Global Rank: [473](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [295]( ../standings_europe.md)<br />
+Regional Rank: [293]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  538.0<br />
+Final Rank Value:  537.9<br />
 <br />
-Final Rank Value (538.0) = Starting Rank Value (534.8) + Head To Head Adjustments (3.2)<br />
+Final Rank Value (537.9) = Starting Rank Value (534.9) + Head To Head Adjustments (3.1)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -20,8 +20,8 @@ To figure out a rosters's Starting Rank Value, first take the average of these f
 The average of these factors is 0.067<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 534.8
-- 400 + ( ( 0.067 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 534.8
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 534.9
+- 400 + ( ( 0.067 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 534.9
 
 
 #### Factors<br />
@@ -37,20 +37,20 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                              |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            7 |      168 | 2025-02-22 | Viperio Academy         | L   | 1.000      | -            | -                | -                | -         |   -13.98 | ifan, isaac, MMS, Rhys, Ziimzey     |
-|            6 |      190 | 2025-02-21 | Submissive and Readable | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (1.000) |     9.42 | ifan, isaac, MMS, Rhys, Ziimzey     |
-|            5 |     3823 | 2024-11-07 | ROYALS                  | L   | 0.441      | -            | -                | -                | -         |    -4.26 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
-|            4 |     3830 | 2024-11-07 | ALASKA                  | L   | 0.440      | -            | -                | -                | -         |    -0.77 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
-|            3 |     3868 | 2024-11-06 | Annex Esports           | W   | 0.434      | 0.143        | 0.000 (0.000)    | 0.059 (0.004)    | 0 (0.000) |     7.97 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
-|            2 |     3920 | 2024-11-05 | Dreams To Legends       | W   | 0.427      | 0.143        | 0.000 (0.000)    | 0.083 (0.005)    | 0 (0.000) |     8.24 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
-|            1 |     3971 | 2024-11-04 | Belfast Storm           | L   | 0.421      | -            | -                | -                | -         |    -3.42 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
+|            7 |      180 | 2025-02-22 | Viperio Academy         | L   | 1.000      | -            | -                | -                | -         |   -13.96 | ifan, isaac, MMS, Rhys, Ziimzey     |
+|            6 |      202 | 2025-02-21 | Submissive and Readable | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (1.000) |     9.42 | ifan, isaac, MMS, Rhys, Ziimzey     |
+|            5 |     3835 | 2024-11-07 | ROYALS                  | L   | 0.432      | -            | -                | -                | -         |    -4.21 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
+|            4 |     3842 | 2024-11-07 | ALASKA                  | L   | 0.432      | -            | -                | -                | -         |    -0.75 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
+|            3 |     3880 | 2024-11-06 | Annex Esports           | W   | 0.425      | 0.143        | 0.000 (0.000)    | 0.058 (0.004)    | 0 (0.000) |     7.83 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
+|            2 |     3932 | 2024-11-05 | Dreams To Legends       | W   | 0.419      | 0.143        | 0.000 (0.000)    | 0.081 (0.005)    | 0 (0.000) |     8.07 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
+|            1 |     3983 | 2024-11-04 | Belfast Storm           | L   | 0.412      | -            | -                | -                | -         |    -3.35 | ifan, maddeN, Rhys, Yoshwa, Ziimzey |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

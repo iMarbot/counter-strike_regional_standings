@@ -4,11 +4,11 @@ Roster: Bambosh, ERSIN, levantino, Polbandana, Tr0ublE<br />
 Global Rank: [548](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [339]( ../standings_europe.md)<br />
+Regional Rank: [338]( ../standings_europe.md)<br />
 <br />
 Final Rank Value:  480.9<br />
 <br />
-Final Rank Value (480.9) = Starting Rank Value (404.3) + Head To Head Adjustments (76.6)<br />
+Final Rank Value (480.9) = Starting Rank Value (404.3) + Head To Head Adjustments (76.5)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.002<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 404.3
-- 400 + ( ( 0.002 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 404.3
+- 400 + ( ( 0.002 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 404.3
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent           | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                         |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |      178 | 2025-02-21 | CYBERSHOKE Esports | L   | 1.000      | -            | -                | -                | -         |    -2.05 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
-|            4 |      194 | 2025-02-21 | Minsk House        | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.187 (0.027)    | 0 (0.000) |    17.67 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
-|            3 |      202 | 2025-02-21 | Informmix          | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.140 (0.020)    | 0 (0.000) |    19.36 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
-|            2 |      213 | 2025-02-21 | Wolves eSports     | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.093 (0.013)    | 0 (0.000) |    18.18 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
-|            1 |      245 | 2025-02-20 | MOUZ NXT           | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.186 (0.027)    | 0 (0.000) |    23.45 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
+|            5 |      190 | 2025-02-21 | CYBERSHOKE Esports | L   | 1.000      | -            | -                | -                | -         |    -2.07 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
+|            4 |      206 | 2025-02-21 | Minsk House        | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.188 (0.027)    | 0 (0.000) |    17.68 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
+|            3 |      214 | 2025-02-21 | Informmix          | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.141 (0.020)    | 0 (0.000) |    19.37 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
+|            2 |      225 | 2025-02-21 | Wolves eSports     | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.094 (0.013)    | 0 (0.000) |    18.18 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
+|            1 |      257 | 2025-02-20 | MOUZ NXT           | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.183 (0.026)    | 0 (0.000) |    23.38 | Bambosh, ERSIN, levantino, Polbandana, Tr0ublE |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

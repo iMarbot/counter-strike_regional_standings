@@ -4,11 +4,11 @@ Roster: abiraju, casE, melanta, swiftsteel, znxxX<br />
 Global Rank: [491](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [305]( ../standings_europe.md)<br />
+Regional Rank: [304]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  524.0<br />
+Final Rank Value:  523.5<br />
 <br />
-Final Rank Value (524.0) = Starting Rank Value (500.9) + Head To Head Adjustments (23.1)<br />
+Final Rank Value (523.5) = Starting Rank Value (500.9) + Head To Head Adjustments (22.7)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.050<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 500.9
-- 400 + ( ( 0.050 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 500.9
+- 400 + ( ( 0.050 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 500.9
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent              | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                    |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |     3247 | 2024-11-17 | RUSH B (Russian team) | L   | 0.505      | -            | -                | -                | -         |    -1.88 | abiraju, casE, melanta, swiftsteel, znxxX |
-|            4 |     3260 | 2024-11-17 | XP Academy            | L   | 0.505      | -            | -                | -                | -         |    -6.47 | abiraju, casE, melanta, swiftsteel, znxxX |
-|            3 |     3276 | 2024-11-17 | LEON Esports          | W   | 0.504      | 0.143        | 0.010 (0.001)    | 0.275 (0.020)    | 0 (0.000) |    12.42 | abiraju, casE, melanta, swiftsteel, znxxX |
-|            2 |     3736 | 2024-11-09 | Poslednii3ae3d        | W   | 0.452      | 0.143        | 0.001 (0.000)    | 0.103 (0.007)    | 0 (0.000) |     8.83 | abiraju, casE, melanta, swiftsteel, znxxX |
-|            1 |     3745 | 2024-11-09 | RUSTEC                | W   | 0.451      | 0.143        | 0.002 (0.000)    | 0.100 (0.006)    | 0 (0.000) |    10.20 | abiraju, casE, melanta, swiftsteel, znxxX |
+|            5 |     3259 | 2024-11-17 | RUSH B (Russian team) | L   | 0.497      | -            | -                | -                | -         |    -1.84 | abiraju, casE, melanta, swiftsteel, znxxX |
+|            4 |     3272 | 2024-11-17 | XP Academy            | L   | 0.497      | -            | -                | -                | -         |    -6.39 | abiraju, casE, melanta, swiftsteel, znxxX |
+|            3 |     3288 | 2024-11-17 | LEON Esports          | W   | 0.496      | 0.143        | 0.010 (0.001)    | 0.271 (0.019)    | 0 (0.000) |    12.22 | abiraju, casE, melanta, swiftsteel, znxxX |
+|            2 |     3748 | 2024-11-09 | Poslednii3ae3d        | W   | 0.444      | 0.143        | 0.001 (0.000)    | 0.101 (0.006)    | 0 (0.000) |     8.68 | abiraju, casE, melanta, swiftsteel, znxxX |
+|            1 |     3757 | 2024-11-09 | RUSTEC                | W   | 0.443      | 0.143        | 0.002 (0.000)    | 0.099 (0.006)    | 0 (0.000) |    10.01 | abiraju, casE, melanta, swiftsteel, znxxX |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

@@ -4,11 +4,11 @@ Roster: BAGEL, CMitch, Freaky, FRIZZY, supa<br />
 Global Rank: [594](../standings_global.md)<br />
 <br />
 Region: [Americas]( ../standings_americas.md)<br />
-Regional Rank: [138]( ../standings_americas.md)<br />
+Regional Rank: [139]( ../standings_americas.md)<br />
 <br />
 Final Rank Value:  406.7<br />
 <br />
-Final Rank Value (406.7) = Starting Rank Value (400.0) + Head To Head Adjustments (6.7)<br />
+Final Rank Value (406.7) = Starting Rank Value (400.0) + Head To Head Adjustments (6.6)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.000<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 400.0
-- 400 + ( ( 0.000 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 400.0
+- 400 + ( ( 0.000 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 400.0
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent    | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                     |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |     5171 | 2024-10-12 | Final Form  | L   | 0.268      | -            | -                | -                | -         |    -2.03 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
-|            4 |     5173 | 2024-10-12 | Not Mythic  | W   | 0.268      | 0.262        | 0.000 (0.000)    | 0.012 (0.001)    | 0 (0.000) |     5.09 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
-|            3 |     5179 | 2024-10-12 | LONG SEASON | W   | 0.267      | 0.262        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     4.18 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
-|            2 |     7374 | 2024-09-07 | Creeps      | L   | 0.035      | -            | -                | -                | -         |    -0.55 | CMitch, Freaky, FRIZZY, Icarus, LittleBEER |
-|            1 |     7694 | 2024-09-03 | Homyno      | L   | 0.008      | -            | -                | -                | -         |    -0.04 | CMitch, Freaky, FRIZZY, Icarus, LittleBEER |
+|            5 |     5183 | 2024-10-12 | Final Form  | L   | 0.260      | -            | -                | -                | -         |    -1.97 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
+|            4 |     5185 | 2024-10-12 | Not Mythic  | W   | 0.259      | 0.262        | 0.000 (0.000)    | 0.012 (0.001)    | 0 (0.000) |     4.96 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
+|            3 |     5191 | 2024-10-12 | LONG SEASON | W   | 0.259      | 0.262        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     4.05 | BAGEL, CMitch, Freaky, FRIZZY, supa        |
+|            2 |     7386 | 2024-09-07 | Creeps      | L   | 0.027      | -            | -                | -                | -         |    -0.42 | CMitch, Freaky, FRIZZY, Icarus, LittleBEER |
+|            1 |     7706 | 2024-09-03 | Homyno      | L   | 0.000      | -            | -                | -                | -         |    -0.00 | CMitch, Freaky, FRIZZY, Icarus, LittleBEER |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

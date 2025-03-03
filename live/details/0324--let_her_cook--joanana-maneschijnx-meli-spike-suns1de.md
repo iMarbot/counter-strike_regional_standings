@@ -4,11 +4,11 @@ Roster: Joanana, ManeschijnX, meli, spike, suns1de<br />
 Global Rank: [324](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [213]( ../standings_europe.md)<br />
+Regional Rank: [211]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  638.3<br />
+Final Rank Value:  637.9<br />
 <br />
-Final Rank Value (638.3) = Starting Rank Value (636.3) + Head To Head Adjustments (2.0)<br />
+Final Rank Value (637.9) = Starting Rank Value (636.0) + Head To Head Adjustments (1.9)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -20,8 +20,8 @@ To figure out a rosters's Starting Rank Value, first take the average of these f
 The average of these factors is 0.118<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 636.3
-- 400 + ( ( 0.118 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 636.3
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 636.0
+- 400 + ( ( 0.118 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 636.0
 
 
 #### Factors<br />
@@ -37,31 +37,31 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent              | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                     |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           10 |     4773 | 2024-10-20 | Eco Warriors          | L   | 0.320      | -            | -                | -                | -         |    -2.97 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            9 |     4846 | 2024-10-19 | BIG EQUIPA            | L   | 0.312      | -            | -                | -                | -         |    -3.25 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            8 |     4881 | 2024-10-18 | NIP Impact            | W   | 0.306      | 0.328        | 0.011 (0.001)    | 0.048 (0.005)    | 0 (0.000) |     5.89 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            7 |     6186 | 2024-09-26 | ENCE Athena           | W   | 0.160      | 0.328        | 0.001 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.74 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            6 |     6691 | 2024-09-19 | Ex-Astralis Women     | L   | 0.113      | -            | -                | -                | -         |    -1.21 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            5 |     6926 | 2024-09-15 | Take Flyte Female     | L   | 0.086      | -            | -                | -                | -         |    -1.24 | Hikomi, Joanana, ManeschijnX, meli, ratons |
-|            4 |     6936 | 2024-09-15 | Nomercy (Female team) | W   | 0.085      | 0.250        | 0.004 (0.000)    | 0.344 (0.007)    | 0 (0.000) |     1.48 | Hikomi, Joanana, ManeschijnX, meli, ratons |
-|            3 |     6995 | 2024-09-14 | XRayG                 | W   | 0.079      | 0.250        | 0.001 (0.000)    | 0.017 (0.000)    | 0 (0.000) |     1.15 | Hikomi, Joanana, ManeschijnX, meli, ratons |
-|            2 |     7179 | 2024-09-11 | Take Flyte Female     | W   | 0.060      | 0.328        | 0.006 (0.000)    | 0.272 (0.005)    | 0 (0.000) |     1.02 | Joanana, ManeschijnX, meli, spike, suns1de |
-|            1 |     7428 | 2024-09-07 | Insilio Female        | L   | 0.032      | -            | -                | -                | -         |    -0.57 | Hikomi, Joanana, ManeschijnX, meli, spike  |
+|           10 |     4785 | 2024-10-20 | Eco Warriors          | L   | 0.311      | -            | -                | -                | -         |    -2.90 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            9 |     4858 | 2024-10-19 | BIG EQUIPA            | L   | 0.304      | -            | -                | -                | -         |    -3.16 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            8 |     4893 | 2024-10-18 | NIP Impact            | W   | 0.298      | 0.328        | 0.012 (0.001)    | 0.046 (0.004)    | 0 (0.000) |     5.73 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            7 |     6198 | 2024-09-26 | ENCE Athena           | W   | 0.151      | 0.328        | 0.001 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.65 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            6 |     6703 | 2024-09-19 | Ex-Astralis Women     | L   | 0.105      | -            | -                | -                | -         |    -1.13 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            5 |     6938 | 2024-09-15 | Take Flyte Female     | L   | 0.078      | -            | -                | -                | -         |    -1.12 | Hikomi, Joanana, ManeschijnX, meli, ratons |
+|            4 |     6948 | 2024-09-15 | Nomercy (Female team) | W   | 0.077      | 0.250        | 0.004 (0.000)    | 0.341 (0.007)    | 0 (0.000) |     1.34 | Hikomi, Joanana, ManeschijnX, meli, ratons |
+|            3 |     7007 | 2024-09-14 | XRayG                 | W   | 0.071      | 0.250        | 0.001 (0.000)    | 0.016 (0.000)    | 0 (0.000) |     1.03 | Hikomi, Joanana, ManeschijnX, meli, ratons |
+|            2 |     7191 | 2024-09-11 | Take Flyte Female     | W   | 0.051      | 0.328        | 0.006 (0.000)    | 0.267 (0.005)    | 0 (0.000) |     0.88 | Joanana, ManeschijnX, meli, spike, suns1de |
+|            1 |     7440 | 2024-09-07 | Insilio Female        | L   | 0.024      | -            | -                | -                | -         |    -0.43 | Hikomi, Joanana, ManeschijnX, meli, spike  |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
-- First, take the sum of their top 10 scaled winnings ($564.75)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- First, take the sum of their top 10 scaled winnings ($548.77)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 Top ten winnings for this roster:<br />
 
 | Event Date | Age Weight | Prize Winnings | Scaled Winnings |
 | :- | -: | :- | :- |
-| 2024-10-20 |      0.320 | $1,700.00      | $543.29         |
-| 2024-09-15 |      0.086 | $250.00        | $21.46          |
+| 2024-10-20 |      0.311 | $1,700.00      | $529.36         |
+| 2024-09-15 |      0.078 | $250.00        | $19.41          |
 
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

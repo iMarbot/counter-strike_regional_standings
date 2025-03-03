@@ -6,9 +6,9 @@ Global Rank: [479](../standings_global.md)<br />
 Region: [Asia]( ../standings_asia.md)<br />
 Regional Rank: [79]( ../standings_asia.md)<br />
 <br />
-Final Rank Value:  533.7<br />
+Final Rank Value:  533.6<br />
 <br />
-Final Rank Value (533.7) = Starting Rank Value (508.0) + Head To Head Adjustments (25.7)<br />
+Final Rank Value (533.6) = Starting Rank Value (508.1) + Head To Head Adjustments (25.6)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -20,8 +20,8 @@ To figure out a rosters's Starting Rank Value, first take the average of these f
 The average of these factors is 0.054<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 508.0
-- 400 + ( ( 0.054 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 508.0
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 508.1
+- 400 + ( ( 0.054 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 508.1
 
 
 #### Factors<br />
@@ -37,29 +37,29 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent           | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                          |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           16 |      113 | 2025-02-22 | LaiShanHui         | L   | 1.000      | -            | -                | -                | -         |   -20.54 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           15 |      304 | 2025-02-17 | DogEvil            | L   | 1.000      | -            | -                | -                | -         |    -4.83 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           14 |      308 | 2025-02-17 | Magic Cape         | W   | 1.000      | 0.143        | 0.004 (0.001)    | 0.201 (0.029)    | 0 (0.000) |    22.93 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           13 |      311 | 2025-02-16 | Azure Sovereign    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.047 (0.007)    | 0 (0.000) |    11.00 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           12 |      321 | 2025-02-16 | StudFarm           | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.093 (0.013)    | 0 (0.000) |    10.46 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           11 |      429 | 2025-02-15 | Loveset            | L   | 1.000      | -            | -                | -                | -         |   -20.09 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|           10 |      434 | 2025-02-14 | Nirvana Esports    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.102 (0.015)    | 0 (0.000) |    17.28 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|            9 |      442 | 2025-02-14 | Shepherd Heart     | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    10.74 | Jun7, Mystic, tutu, zdr, 正港猛男   |
-|            8 |      798 | 2025-02-07 | Harizma            | L   | 1.000      | -            | -                | -                | -         |    -5.58 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            7 |      860 | 2025-02-06 | Shika              | L   | 1.000      | -            | -                | -                | -         |   -12.95 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            6 |      912 | 2025-02-05 | Brain Dead Boys    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    10.44 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            5 |     1230 | 2024-12-31 | Shika              | L   | 0.798      | -            | -                | -                | -         |   -11.18 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            4 |     1240 | 2024-12-30 | Loveset            | W   | 0.792      | 0.143        | 0.000 (0.000)    | 0.140 (0.016)    | 0 (0.000) |     8.38 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            3 |     2680 | 2024-11-27 | Lynn Vision Gaming | L   | 0.571      | -            | -                | -                | -         |    -2.45 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            2 |     2740 | 2024-11-25 | Rare Atom          | L   | 0.563      | -            | -                | -                | -         |    -1.32 | Jun7, Mystic, s1ayer, tutu, zdr |
-|            1 |     2742 | 2024-11-25 | Ex-GR Gaming       | W   | 0.563      | 0.143        | 0.011 (0.001)    | 0.102 (0.008)    | 0 (0.000) |    13.42 | Jun7, Mystic, s1ayer, tutu, zdr |
+|           16 |      128 | 2025-02-22 | LaiShanHui         | L   | 1.000      | -            | -                | -                | -         |   -20.54 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           15 |      316 | 2025-02-17 | DogEvil            | L   | 1.000      | -            | -                | -                | -         |    -4.84 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           14 |      320 | 2025-02-17 | Magic Cape         | W   | 1.000      | 0.143        | 0.004 (0.001)    | 0.200 (0.029)    | 0 (0.000) |    22.93 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           13 |      323 | 2025-02-16 | Azure Sovereign    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.047 (0.007)    | 0 (0.000) |    11.01 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           12 |      333 | 2025-02-16 | StudFarm           | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.094 (0.013)    | 0 (0.000) |    10.46 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           11 |      441 | 2025-02-15 | Loveset            | L   | 1.000      | -            | -                | -                | -         |   -20.08 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|           10 |      446 | 2025-02-14 | Nirvana Esports    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.101 (0.014)    | 0 (0.000) |    17.30 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|            9 |      454 | 2025-02-14 | Shepherd Heart     | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    10.75 | Jun7, Mystic, tutu, zdr, 正港猛男   |
+|            8 |      810 | 2025-02-07 | Harizma            | L   | 1.000      | -            | -                | -                | -         |    -5.63 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            7 |      872 | 2025-02-06 | Shika              | L   | 1.000      | -            | -                | -                | -         |   -12.95 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            6 |      924 | 2025-02-05 | Brain Dead Boys    | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    10.44 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            5 |     1242 | 2024-12-31 | Shika              | L   | 0.790      | -            | -                | -                | -         |   -11.07 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            4 |     1252 | 2024-12-30 | Loveset            | W   | 0.783      | 0.143        | 0.000 (0.000)    | 0.141 (0.016)    | 0 (0.000) |     8.30 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            3 |     2692 | 2024-11-27 | Lynn Vision Gaming | L   | 0.563      | -            | -                | -                | -         |    -2.42 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            2 |     2752 | 2024-11-25 | Rare Atom          | L   | 0.555      | -            | -                | -                | -         |    -1.31 | Jun7, Mystic, s1ayer, tutu, zdr |
+|            1 |     2754 | 2024-11-25 | Ex-GR Gaming       | W   | 0.555      | 0.143        | 0.012 (0.001)    | 0.100 (0.008)    | 0 (0.000) |    13.22 | Jun7, Mystic, s1ayer, tutu, zdr |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

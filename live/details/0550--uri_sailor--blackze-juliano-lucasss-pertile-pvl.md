@@ -4,24 +4,24 @@ Roster: Blackze, juliano, lucasss, pertile, pvL<br />
 Global Rank: [550](../standings_global.md)<br />
 <br />
 Region: [Americas]( ../standings_americas.md)<br />
-Regional Rank: [125]( ../standings_americas.md)<br />
+Regional Rank: [127]( ../standings_americas.md)<br />
 <br />
-Final Rank Value:  480.9<br />
+Final Rank Value:  479.0<br />
 <br />
-Final Rank Value (480.9) = Starting Rank Value (467.9) + Head To Head Adjustments (13.0)<br />
+Final Rank Value (479.0) = Starting Rank Value (466.3) + Head To Head Adjustments (12.7)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
 - Bounty Offered: 0.000[<sup>1</sup>](#table2)
 - Bounty Collected: 0.000[<sup>2</sup>](#table1)
 - Opponent Network: 0.000[<sup>2</sup>](#table1)
-- LAN Wins: 0.136[<sup>2</sup>](#table1)
+- LAN Wins: 0.132[<sup>2</sup>](#table1)
 
-The average of these factors is 0.034<br />
+The average of these factors is 0.033<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 467.9
-- 400 + ( ( 0.034 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 467.9
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 466.3
+- 400 + ( ( 0.033 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 466.3
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent          | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                  |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |     4921 | 2024-10-17 | UnB Green Owls    | W   | 0.300      | 0.143        | 0.000 (0.000)    | 0.040 (0.002)    | 1 (0.300) |     4.53 | Blackze, juliano, lucasss, pertile, pvL |
-|            4 |     4974 | 2024-10-16 | UTFPR Pato Branco | W   | 0.294      | 0.143        | 0.000 (0.000)    | 0.041 (0.002)    | 1 (0.294) |     4.38 | Blackze, juliano, lucasss, pertile, pvL |
-|            3 |     5053 | 2024-10-15 | UFG Eagles        | W   | 0.286      | 0.143        | 0.000 (0.000)    | 0.013 (0.001)    | 1 (0.286) |     3.91 | Blackze, juliano, lucasss, pertile, pvL |
-|            2 |     5088 | 2024-10-14 | UNOESC Versatch   | W   | 0.282      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (0.282) |     3.63 | Blackze, juliano, lucasss, pertile, pvL |
-|            1 |     5575 | 2024-10-05 | Martians Oldsters | L   | 0.220      | -            | -                | -                | -         |    -3.45 | Blackze, juliano, lucasss, pertile, pvL |
+|            5 |     4933 | 2024-10-17 | UnB Green Owls    | W   | 0.292      | 0.143        | 0.000 (0.000)    | 0.039 (0.002)    | 1 (0.292) |     4.41 | Blackze, juliano, lucasss, pertile, pvL |
+|            4 |     4986 | 2024-10-16 | UTFPR Pato Branco | W   | 0.286      | 0.143        | 0.000 (0.000)    | 0.039 (0.002)    | 1 (0.286) |     4.26 | Blackze, juliano, lucasss, pertile, pvL |
+|            3 |     5065 | 2024-10-15 | UFG Eagles        | W   | 0.278      | 0.143        | 0.000 (0.000)    | 0.013 (0.001)    | 1 (0.278) |     3.81 | Blackze, juliano, lucasss, pertile, pvL |
+|            2 |     5100 | 2024-10-14 | UNOESC Versatch   | W   | 0.273      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (0.273) |     3.54 | Blackze, juliano, lucasss, pertile, pvL |
+|            1 |     5587 | 2024-10-05 | Martians Oldsters | L   | 0.212      | -            | -                | -                | -         |    -3.31 | Blackze, juliano, lucasss, pertile, pvL |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

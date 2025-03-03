@@ -4,24 +4,24 @@ Roster: h0t, M1KA, Mané, PUIG, Sprayy<br />
 Global Rank: [198](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [144]( ../standings_europe.md)<br />
+Regional Rank: [142]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  712.2<br />
+Final Rank Value:  712.6<br />
 <br />
-Final Rank Value (712.2) = Starting Rank Value (732.1) + Head To Head Adjustments (-19.8)<br />
+Final Rank Value (712.6) = Starting Rank Value (731.9) + Head To Head Adjustments (-19.3)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
-- Bounty Offered: 0.313[<sup>1</sup>](#table2)
+- Bounty Offered: 0.314[<sup>1</sup>](#table2)
 - Bounty Collected: 0.205[<sup>2</sup>](#table1)
 - Opponent Network: 0.007[<sup>2</sup>](#table1)
-- LAN Wins: 0.139[<sup>2</sup>](#table1)
+- LAN Wins: 0.138[<sup>2</sup>](#table1)
 
 The average of these factors is 0.166<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 732.1
-- 400 + ( ( 0.166 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 732.1
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 731.9
+- 400 + ( ( 0.166 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 731.9
 
 
 #### Factors<br />
@@ -37,41 +37,41 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                            |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           19 |     1291 | 2024-12-28 | CHAOX ESPORTS           | W   | 0.779      | 0.291        | 0.002 (0.001)    | 0.000 (0.000)    | 1 (0.779) |     6.76 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           18 |     1443 | 2024-12-21 | The Agency Clan         | L   | 0.733      | -            | -                | -                | -         |    -7.37 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           17 |     2319 | 2024-12-02 | ZOTIX                   | L   | 0.607      | -            | -                | -                | -         |   -12.18 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           16 |     2618 | 2024-11-28 | Ex-ESC Gaming           | L   | 0.580      | -            | -                | -                | -         |   -11.07 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           15 |     2947 | 2024-11-22 | KUUSAMO.gg              | W   | 0.540      | 0.284        | 0.000 (0.000)    | 0.164 (0.025)    | 0 (0.000) |     3.90 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           14 |     2953 | 2024-11-22 | PCIFIC Espor            | W   | 0.540      | 0.284        | 0.004 (0.001)    | 0.254 (0.039)    | 0 (0.000) |     9.01 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           13 |     4048 | 2024-11-03 | The Agency Clan         | L   | 0.413      | -            | -                | -                | -         |    -4.38 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           12 |     4080 | 2024-11-03 | Rhyno Youngsters        | W   | 0.411      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (0.411) |     1.79 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           11 |     4359 | 2024-10-29 | GOOFYBOYZ               | L   | 0.380      | -            | -                | -                | -         |    -5.58 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|           10 |     4407 | 2024-10-28 | The Agency Clan         | L   | 0.374      | -            | -                | -                | -         |    -4.17 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|            9 |     4690 | 2024-10-22 | RogerBall               | W   | 0.334      | 0.143        | 0.000 (0.000)    | 0.030 (0.001)    | 0 (0.000) |     2.24 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|            8 |     4704 | 2024-10-22 | GOOFYBOYZ               | W   | 0.333      | 0.143        | 0.003 (0.000)    | 0.183 (0.009)    | 0 (0.000) |     5.52 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|            7 |     4839 | 2024-10-19 | SSKT                    | W   | 0.313      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.36 | h0t, M1KA, Mané, PUIG, Sprayy     |
-|            6 |     5221 | 2024-10-12 | Rhyno Youngsters        | L   | 0.265      | -            | -                | -                | -         |    -3.88 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
-|            5 |     5250 | 2024-10-11 | 100K                    | W   | 0.260      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.12 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
-|            4 |     6075 | 2024-09-28 | Rhyno Esports           | L   | 0.171      | -            | -                | -                | -         |    -1.80 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
-|            3 |     6129 | 2024-09-27 | Turritos                | W   | 0.166      | 0.143        | 0.000 (0.000)    | 0.007 (0.000)    | 0 (0.000) |     0.71 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
-|            2 |     7344 | 2024-09-08 | SQUAD (Portuguese team) | L   | 0.039      | -            | -                | -                | -         |    -0.99 | h0t, M1KA, PUIG, SeabraEZ, Sprayy |
-|            1 |     7420 | 2024-09-07 | EXSAD Gaming            | L   | 0.032      | -            | -                | -                | -         |    -0.83 | h0t, M1KA, PUIG, SeabraEZ, Sprayy |
+|           19 |     1303 | 2024-12-28 | CHAOX ESPORTS           | W   | 0.771      | 0.291        | 0.002 (0.001)    | 0.000 (0.000)    | 1 (0.771) |     6.69 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           18 |     1455 | 2024-12-21 | The Agency Clan         | L   | 0.725      | -            | -                | -                | -         |    -7.33 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           17 |     2331 | 2024-12-02 | ZOTIX                   | L   | 0.599      | -            | -                | -                | -         |   -12.01 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           16 |     2630 | 2024-11-28 | Ex-ESC Gaming           | L   | 0.572      | -            | -                | -                | -         |   -10.92 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           15 |     2959 | 2024-11-22 | KUUSAMO.gg              | W   | 0.532      | 0.284        | 0.000 (0.000)    | 0.162 (0.024)    | 0 (0.000) |     3.84 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           14 |     2965 | 2024-11-22 | PCIFIC Espor            | W   | 0.532      | 0.284        | 0.004 (0.001)    | 0.251 (0.038)    | 0 (0.000) |     8.85 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           13 |     4060 | 2024-11-03 | The Agency Clan         | L   | 0.405      | -            | -                | -                | -         |    -4.32 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           12 |     4092 | 2024-11-03 | Rhyno Youngsters        | W   | 0.403      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 1 (0.403) |     1.75 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           11 |     4371 | 2024-10-29 | GOOFYBOYZ               | L   | 0.372      | -            | -                | -                | -         |    -5.47 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|           10 |     4419 | 2024-10-28 | The Agency Clan         | L   | 0.366      | -            | -                | -                | -         |    -4.09 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|            9 |     4702 | 2024-10-22 | RogerBall               | W   | 0.325      | 0.143        | 0.000 (0.000)    | 0.030 (0.001)    | 0 (0.000) |     2.18 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|            8 |     4716 | 2024-10-22 | GOOFYBOYZ               | W   | 0.324      | 0.143        | 0.003 (0.000)    | 0.179 (0.008)    | 0 (0.000) |     5.37 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|            7 |     4851 | 2024-10-19 | SSKT                    | W   | 0.305      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.32 | h0t, M1KA, Mané, PUIG, Sprayy     |
+|            6 |     5232 | 2024-10-12 | Rhyno Youngsters        | L   | 0.257      | -            | -                | -                | -         |    -3.77 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
+|            5 |     5262 | 2024-10-11 | 100K                    | W   | 0.252      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     1.08 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
+|            4 |     6087 | 2024-09-28 | Rhyno Esports           | L   | 0.163      | -            | -                | -                | -         |    -1.73 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
+|            3 |     6141 | 2024-09-27 | Turritos                | W   | 0.158      | 0.143        | 0.000 (0.000)    | 0.006 (0.000)    | 0 (0.000) |     0.68 | h0t, Horsalo, M1KA, PUIG, Sprayy  |
+|            2 |     7356 | 2024-09-08 | SQUAD (Portuguese team) | L   | 0.031      | -            | -                | -                | -         |    -0.79 | h0t, M1KA, PUIG, SeabraEZ, Sprayy |
+|            1 |     7432 | 2024-09-07 | EXSAD Gaming            | L   | 0.024      | -            | -                | -                | -         |    -0.62 | h0t, M1KA, PUIG, SeabraEZ, Sprayy |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
-- First, take the sum of their top 10 scaled winnings ($2,161.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- First, take the sum of their top 10 scaled winnings ($2,137.42)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.01) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 Top ten winnings for this roster:<br />
 
 | Event Date | Age Weight | Prize Winnings | Scaled Winnings |
 | :- | -: | :- | :- |
-| 2024-12-28 |      0.779 | $2,607.14      | $2,032.24       |
-| 2024-12-22 |      0.741 | $52.15         | $38.62          |
-| 2024-11-03 |      0.414 | $217.62        | $90.13          |
+| 2024-12-28 |      0.771 | $2,607.14      | $2,010.88       |
+| 2024-12-22 |      0.732 | $52.15         | $38.20          |
+| 2024-11-03 |      0.406 | $217.62        | $88.35          |
 
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

@@ -4,11 +4,11 @@ Roster: fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX<br />
 Global Rank: [469](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [292]( ../standings_europe.md)<br />
+Regional Rank: [291]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  542.7<br />
+Final Rank Value:  542.4<br />
 <br />
-Final Rank Value (542.7) = Starting Rank Value (538.2) + Head To Head Adjustments (4.5)<br />
+Final Rank Value (542.4) = Starting Rank Value (538.1) + Head To Head Adjustments (4.3)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -20,8 +20,8 @@ To figure out a rosters's Starting Rank Value, first take the average of these f
 The average of these factors is 0.069<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 538.2
-- 400 + ( ( 0.069 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 538.2
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 538.1
+- 400 + ( ( 0.069 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 538.1
 
 
 #### Factors<br />
@@ -37,19 +37,19 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent      | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                           |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            6 |     1213 | 2025-01-08 | ECSTATIC      | L   | 0.852      | -            | -                | -                | -         |    -3.25 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
-|            5 |     1225 | 2025-01-04 | Rhyno Esports | L   | 0.824      | -            | -                | -                | -         |    -3.87 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
-|            4 |     1259 | 2024-12-29 | WOPA Esport   | W   | 0.785      | 0.417        | 0.031 (0.010)    | 0.785 (0.257)    | 0 (0.000) |    20.95 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
-|            3 |     1323 | 2024-12-27 | KONO.ECF      | L   | 0.773      | -            | -                | -                | -         |   -10.27 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
-|            2 |     2837 | 2024-11-23 | HOTU          | L   | 0.547      | -            | -                | -                | -         |    -4.42 | fostar, H4SAN4TOR, leri511, lollipop21k, sstiNiX |
-|            1 |     2846 | 2024-11-23 | MOLEGAN       | W   | 0.547      | 0.262        | 0.000 (0.000)    | 0.028 (0.004)    | 0 (0.000) |     5.33 | fostar, H4SAN4TOR, leri511, lollipop21k, sstiNiX |
+|            6 |     1225 | 2025-01-08 | ECSTATIC      | L   | 0.843      | -            | -                | -                | -         |    -3.25 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
+|            5 |     1237 | 2025-01-04 | Rhyno Esports | L   | 0.816      | -            | -                | -                | -         |    -3.87 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
+|            4 |     1271 | 2024-12-29 | WOPA Esport   | W   | 0.777      | 0.417        | 0.032 (0.010)    | 0.777 (0.252)    | 0 (0.000) |    20.70 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
+|            3 |     1335 | 2024-12-27 | KONO.ECF      | L   | 0.765      | -            | -                | -                | -         |   -10.18 | fostar, h4rn, H4SAN4TOR, kwezz, sstiNiX          |
+|            2 |     2849 | 2024-11-23 | HOTU          | L   | 0.539      | -            | -                | -                | -         |    -4.37 | fostar, H4SAN4TOR, leri511, lollipop21k, sstiNiX |
+|            1 |     2858 | 2024-11-23 | MOLEGAN       | W   | 0.538      | 0.262        | 0.000 (0.000)    | 0.028 (0.004)    | 0 (0.000) |     5.26 | fostar, H4SAN4TOR, leri511, lollipop21k, sstiNiX |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

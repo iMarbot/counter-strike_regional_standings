@@ -4,24 +4,24 @@ Roster: Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V<br />
 Global Rank: [517](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [322]( ../standings_europe.md)<br />
+Regional Rank: [321]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  497.9<br />
+Final Rank Value:  496.7<br />
 <br />
-Final Rank Value (497.9) = Starting Rank Value (492.3) + Head To Head Adjustments (5.5)<br />
+Final Rank Value (496.7) = Starting Rank Value (491.5) + Head To Head Adjustments (5.2)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
 - Bounty Offered: 0.000[<sup>1</sup>](#table2)
-- Bounty Collected: 0.183[<sup>2</sup>](#table1)
-- Opponent Network: 0.002[<sup>2</sup>](#table1)
+- Bounty Collected: 0.182[<sup>2</sup>](#table1)
+- Opponent Network: 0.001[<sup>2</sup>](#table1)
 - LAN Wins: 0.000[<sup>2</sup>](#table1)
 
 The average of these factors is 0.046<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 492.3
-- 400 + ( ( 0.046 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 492.3
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 491.5
+- 400 + ( ( 0.046 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 491.5
 
 
 #### Factors<br />
@@ -37,32 +37,30 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                                  | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                    |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           19 |     5921 | 2024-09-30 | Insilio                                   | L   | 0.185      | -            | -                | -                | -         |    -1.40 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           18 |     6150 | 2024-09-27 | EYEBALLERS                                | L   | 0.164      | -            | -                | -                | -         |    -0.82 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           17 |     6194 | 2024-09-26 | Nexus Gaming                              | L   | 0.159      | -            | -                | -                | -         |    -0.11 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           16 |     6517 | 2024-09-22 | Copenhagen Wolves (American organization) | L   | 0.132      | -            | -                | -                | -         |    -1.81 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           15 |     6527 | 2024-09-22 | Revenant Esports                          | W   | 0.131      | 0.384        | 0.000 (0.000)    | 0.006 (0.000)    | 0 (0.000) |     2.09 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           14 |     6646 | 2024-09-20 | Ex-ENTERPRISE esports                     | W   | 0.118      | 0.384        | 0.003 (0.000)    | 0.085 (0.004)    | 0 (0.000) |     2.89 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           13 |     6765 | 2024-09-18 | QUAZAR                                    | W   | 0.106      | 0.143        | 0.005 (0.000)    | 0.257 (0.004)    | 0 (0.000) |     2.57 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           12 |     6845 | 2024-09-17 | Rhyno Esports                             | W   | 0.098      | 0.143        | 0.002 (0.000)    | 0.084 (0.001)    | 0 (0.000) |     2.27 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           11 |     7088 | 2024-09-13 | GUN5 Esports                              | L   | 0.072      | -            | -                | -                | -         |    -0.18 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|           10 |     7095 | 2024-09-13 | FLuffy Gangsters                          | L   | 0.072      | -            | -                | -                | -         |    -0.35 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            9 |     7240 | 2024-09-10 | Monte                                     | L   | 0.053      | -            | -                | -                | -         |    -0.14 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            8 |     7291 | 2024-09-09 | FLuffy Gangsters                          | W   | 0.046      | 0.143        | 0.014 (0.000)    | 0.925 (0.006)    | 0 (0.000) |     1.23 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            7 |     7512 | 2024-09-06 | Insilio                                   | L   | 0.026      | -            | -                | -                | -         |    -0.20 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            6 |     7533 | 2024-09-06 | Los kogutos                               | L   | 0.024      | -            | -                | -                | -         |    -0.04 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
-|            5 |     7539 | 2024-09-06 | Rhyno Esports                             | L   | 0.024      | -            | -                | -                | -         |    -0.20 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            4 |     7579 | 2024-09-05 | GameAgents                                | L   | 0.020      | -            | -                | -                | -         |    -0.16 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            3 |     7681 | 2024-09-04 | FAVBET Team                               | L   | 0.011      | -            | -                | -                | -         |    -0.04 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            2 |     7726 | 2024-09-03 | Insilio                                   | L   | 0.006      | -            | -                | -                | -         |    -0.05 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
-|            1 |     7745 | 2024-09-03 | Los kogutos                               | L   | 0.005      | -            | -                | -                | -         |    -0.01 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|           17 |     5933 | 2024-09-30 | Insilio                                   | L   | 0.177      | -            | -                | -                | -         |    -1.36 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           16 |     6162 | 2024-09-27 | EYEBALLERS                                | L   | 0.156      | -            | -                | -                | -         |    -0.78 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           15 |     6206 | 2024-09-26 | Nexus Gaming                              | L   | 0.151      | -            | -                | -                | -         |    -0.11 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           14 |     6529 | 2024-09-22 | Copenhagen Wolves (American organization) | L   | 0.124      | -            | -                | -                | -         |    -1.71 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           13 |     6539 | 2024-09-22 | Revenant Esports                          | W   | 0.123      | 0.384        | 0.000 (0.000)    | 0.005 (0.000)    | 0 (0.000) |     1.96 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           12 |     6658 | 2024-09-20 | Ex-ENTERPRISE esports                     | W   | 0.110      | 0.384        | 0.003 (0.000)    | 0.082 (0.003)    | 0 (0.000) |     2.69 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           11 |     6777 | 2024-09-18 | QUAZAR                                    | W   | 0.097      | 0.143        | 0.005 (0.000)    | 0.251 (0.003)    | 0 (0.000) |     2.37 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|           10 |     6857 | 2024-09-17 | Rhyno Esports                             | W   | 0.090      | 0.143        | 0.002 (0.000)    | 0.080 (0.001)    | 0 (0.000) |     2.08 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|            9 |     7100 | 2024-09-13 | GUN5 Esports                              | L   | 0.064      | -            | -                | -                | -         |    -0.16 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|            8 |     7107 | 2024-09-13 | FLuffy Gangsters                          | L   | 0.063      | -            | -                | -                | -         |    -0.31 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            7 |     7252 | 2024-09-10 | Monte                                     | L   | 0.045      | -            | -                | -                | -         |    -0.12 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            6 |     7303 | 2024-09-09 | FLuffy Gangsters                          | W   | 0.038      | 0.143        | 0.014 (0.000)    | 0.909 (0.005)    | 0 (0.000) |     1.01 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            5 |     7524 | 2024-09-06 | Insilio                                   | L   | 0.018      | -            | -                | -                | -         |    -0.14 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            4 |     7545 | 2024-09-06 | Los kogutos                               | L   | 0.016      | -            | -                | -                | -         |    -0.03 | Chill, danistzz, H4SAN4TOR, TruNiQ, X5G7V |
+|            3 |     7551 | 2024-09-06 | Rhyno Esports                             | L   | 0.015      | -            | -                | -                | -         |    -0.13 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            2 |     7591 | 2024-09-05 | GameAgents                                | L   | 0.012      | -            | -                | -                | -         |    -0.09 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
+|            1 |     7693 | 2024-09-04 | FAVBET Team                               | L   | 0.003      | -            | -                | -                | -         |    -0.01 | danistzz, fozil, H4SAN4TOR, TruNiQ, X5G7V |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

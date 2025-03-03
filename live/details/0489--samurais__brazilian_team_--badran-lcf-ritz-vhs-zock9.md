@@ -4,24 +4,24 @@ Roster: badran, lcf, ritz, vhs, zock9<br />
 Global Rank: [489](../standings_global.md)<br />
 <br />
 Region: [Americas]( ../standings_americas.md)<br />
-Regional Rank: [108]( ../standings_americas.md)<br />
+Regional Rank: [109]( ../standings_americas.md)<br />
 <br />
-Final Rank Value:  526.6<br />
+Final Rank Value:  525.8<br />
 <br />
-Final Rank Value (526.6) = Starting Rank Value (500.2) + Head To Head Adjustments (26.4)<br />
+Final Rank Value (525.8) = Starting Rank Value (500.1) + Head To Head Adjustments (25.7)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
 - Bounty Offered: 0.000[<sup>1</sup>](#table2)
 - Bounty Collected: 0.188[<sup>2</sup>](#table1)
-- Opponent Network: 0.013[<sup>2</sup>](#table1)
+- Opponent Network: 0.012[<sup>2</sup>](#table1)
 - LAN Wins: 0.000[<sup>2</sup>](#table1)
 
 The average of these factors is 0.050<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 500.2
-- 400 + ( ( 0.050 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 500.2
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 500.1
+- 400 + ( ( 0.050 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 500.1
 
 
 #### Factors<br />
@@ -37,32 +37,32 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                 | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                          |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           19 |     1946 | 2024-12-09 | 20/70                    | L   | 0.654      | -            | -                | -                | -         |    -7.03 | badran, lcf, ritz, vhs, zock9   |
-|           18 |     2122 | 2024-12-06 | Players (Brazilian team) | L   | 0.634      | -            | -                | -                | -         |    -4.19 | badran, lcf, ritz, vhs, zock9   |
-|           17 |     2252 | 2024-12-03 | 20/70                    | W   | 0.614      | 0.143        | 0.001 (0.000)    | 0.290 (0.025)    | 0 (0.000) |    12.73 | badran, lcf, ritz, vhs, zock9   |
-|           16 |     2748 | 2024-11-25 | AMIGOS (Brazilian team)  | L   | 0.560      | -            | -                | -                | -         |    -9.39 | flash, k9izer, lcf, ritz, zock9 |
-|           15 |     3138 | 2024-11-19 | 9z Academy               | W   | 0.521      | 0.143        | 0.001 (0.000)    | 0.388 (0.029)    | 0 (0.000) |    11.43 | flash, k9izer, lcf, ritz, zock9 |
-|           14 |     3371 | 2024-11-15 | MIBR Academy             | L   | 0.494      | -            | -                | -                | -         |    -4.43 | flash, k9izer, lcf, ritz, zock9 |
-|           13 |     3694 | 2024-11-09 | DB Peek Esports          | W   | 0.454      | 0.143        | 0.000 (0.000)    | 0.240 (0.016)    | 0 (0.000) |     9.23 | flash, k9izer, lcf, ritz, zock9 |
-|           12 |     3702 | 2024-11-09 | INTERDIT                 | W   | 0.454      | 0.143        | 0.000 (0.000)    | 0.158 (0.010)    | 0 (0.000) |     9.17 | flash, k9izer, lcf, ritz, zock9 |
-|           11 |     3778 | 2024-11-08 | Bad News Chickens        | L   | 0.447      | -            | -                | -                | -         |    -4.12 | flash, k9izer, lcf, ritz, zock9 |
-|           10 |     3825 | 2024-11-07 | Myth e-Sports            | W   | 0.441      | 0.242        | 0.000 (0.000)    | 0.080 (0.009)    | 0 (0.000) |     8.47 | flash, k9izer, lcf, ritz, zock9 |
-|            9 |     3966 | 2024-11-04 | Players (Brazilian team) | L   | 0.421      | -            | -                | -                | -         |    -2.71 | flash, k9izer, lcf, ritz, zock9 |
-|            8 |     4104 | 2024-11-02 | América eSports          | W   | 0.407      | 0.143        | 0.000 (0.000)    | 0.429 (0.025)    | 0 (0.000) |     8.38 | flash, k9izer, lcf, ritz, zock9 |
-|            7 |     4119 | 2024-11-02 | Atrix Esports            | W   | 0.407      | 0.143        | 0.005 (0.000)    | 0.215 (0.012)    | 0 (0.000) |     9.52 | flash, k9izer, lcf, ritz, zock9 |
-|            6 |     5043 | 2024-10-15 | Martians Oldsters        | L   | 0.287      | -            | -                | -                | -         |    -4.82 | flash, k9izer, lcf, ritz, zock9 |
-|            5 |     5047 | 2024-10-15 | Team Leveling            | L   | 0.287      | -            | -                | -                | -         |    -4.62 | flash, k9izer, lcf, ritz, zock9 |
-|            4 |     6355 | 2024-09-24 | 20/70                    | L   | 0.147      | -            | -                | -                | -         |    -1.39 | alwayz, flash, lcf, ritz, zock9 |
-|            3 |     6804 | 2024-09-17 | Yawara E-Sports          | L   | 0.101      | -            | -                | -                | -         |    -0.83 | alwayz, flash, lcf, ritz, zock9 |
-|            2 |     7385 | 2024-09-07 | Nova holanda             | W   | 0.034      | 0.143        | 0.000 (0.000)    | 0.002 (0.000)    | 0 (0.000) |     0.46 | alwayz, flash, lcf, ritz, zock9 |
-|            1 |     7388 | 2024-09-07 | AMIGOS (Brazilian team)  | W   | 0.033      | 0.143        | 0.000 (0.000)    | 0.029 (0.000)    | 0 (0.000) |     0.50 | alwayz, flash, lcf, ritz, zock9 |
+|           19 |     1958 | 2024-12-09 | 20/70                    | L   | 0.645      | -            | -                | -                | -         |    -6.96 | badran, lcf, ritz, vhs, zock9   |
+|           18 |     2134 | 2024-12-06 | Players (Brazilian team) | L   | 0.625      | -            | -                | -                | -         |    -4.15 | badran, lcf, ritz, vhs, zock9   |
+|           17 |     2264 | 2024-12-03 | 20/70                    | W   | 0.606      | 0.143        | 0.001 (0.000)    | 0.286 (0.025)    | 0 (0.000) |    12.55 | badran, lcf, ritz, vhs, zock9   |
+|           16 |     2760 | 2024-11-25 | AMIGOS (Brazilian team)  | L   | 0.552      | -            | -                | -                | -         |    -9.25 | flash, k9izer, lcf, ritz, zock9 |
+|           15 |     3150 | 2024-11-19 | 9z Academy               | W   | 0.513      | 0.143        | 0.001 (0.000)    | 0.384 (0.028)    | 0 (0.000) |    11.25 | flash, k9izer, lcf, ritz, zock9 |
+|           14 |     3383 | 2024-11-15 | MIBR Academy             | L   | 0.485      | -            | -                | -                | -         |    -4.37 | flash, k9izer, lcf, ritz, zock9 |
+|           13 |     3706 | 2024-11-09 | DB Peek Esports          | W   | 0.446      | 0.143        | 0.000 (0.000)    | 0.236 (0.015)    | 0 (0.000) |     9.06 | flash, k9izer, lcf, ritz, zock9 |
+|           12 |     3714 | 2024-11-09 | INTERDIT                 | W   | 0.445      | 0.143        | 0.000 (0.000)    | 0.155 (0.010)    | 0 (0.000) |     9.01 | flash, k9izer, lcf, ritz, zock9 |
+|           11 |     3790 | 2024-11-08 | Bad News Chickens        | L   | 0.439      | -            | -                | -                | -         |    -4.06 | flash, k9izer, lcf, ritz, zock9 |
+|           10 |     3837 | 2024-11-07 | Myth e-Sports            | W   | 0.432      | 0.242        | 0.000 (0.000)    | 0.078 (0.008)    | 0 (0.000) |     8.31 | flash, k9izer, lcf, ritz, zock9 |
+|            9 |     3978 | 2024-11-04 | Players (Brazilian team) | L   | 0.413      | -            | -                | -                | -         |    -2.65 | flash, k9izer, lcf, ritz, zock9 |
+|            8 |     4116 | 2024-11-02 | América eSports          | W   | 0.399      | 0.143        | 0.000 (0.000)    | 0.426 (0.024)    | 0 (0.000) |     8.22 | flash, k9izer, lcf, ritz, zock9 |
+|            7 |     4131 | 2024-11-02 | Atrix Esports            | W   | 0.398      | 0.143        | 0.005 (0.000)    | 0.211 (0.012)    | 0 (0.000) |     9.33 | flash, k9izer, lcf, ritz, zock9 |
+|            6 |     5055 | 2024-10-15 | Martians Oldsters        | L   | 0.279      | -            | -                | -                | -         |    -4.68 | flash, k9izer, lcf, ritz, zock9 |
+|            5 |     5059 | 2024-10-15 | Team Leveling            | L   | 0.278      | -            | -                | -                | -         |    -4.49 | flash, k9izer, lcf, ritz, zock9 |
+|            4 |     6367 | 2024-09-24 | 20/70                    | L   | 0.139      | -            | -                | -                | -         |    -1.31 | alwayz, flash, lcf, ritz, zock9 |
+|            3 |     6816 | 2024-09-17 | Yawara E-Sports          | L   | 0.092      | -            | -                | -                | -         |    -0.76 | alwayz, flash, lcf, ritz, zock9 |
+|            2 |     7397 | 2024-09-07 | Nova holanda             | W   | 0.026      | 0.143        | 0.000 (0.000)    | 0.001 (0.000)    | 0 (0.000) |     0.29 | alwayz, flash, lcf, ritz, zock9 |
+|            1 |     7400 | 2024-09-07 | AMIGOS (Brazilian team)  | W   | 0.025      | 0.143        | 0.000 (0.000)    | 0.027 (0.000)    | 0 (0.000) |     0.38 | alwayz, flash, lcf, ritz, zock9 |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

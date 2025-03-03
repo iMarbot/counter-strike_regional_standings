@@ -4,24 +4,24 @@ Roster: bodik, Litovka, neverl0ck, nibito, Tuscan4ik<br />
 Global Rank: [475](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [296]( ../standings_europe.md)<br />
+Regional Rank: [295]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  537.1<br />
+Final Rank Value:  536.8<br />
 <br />
-Final Rank Value (537.1) = Starting Rank Value (566.2) + Head To Head Adjustments (-29.1)<br />
+Final Rank Value (536.8) = Starting Rank Value (565.8) + Head To Head Adjustments (-29.1)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
-- Bounty Offered: 0.201[<sup>1</sup>](#table2)
-- Bounty Collected: 0.129[<sup>2</sup>](#table1)
+- Bounty Offered: 0.200[<sup>1</sup>](#table2)
+- Bounty Collected: 0.128[<sup>2</sup>](#table1)
 - Opponent Network: 0.003[<sup>2</sup>](#table1)
 - LAN Wins: 0.000[<sup>2</sup>](#table1)
 
 The average of these factors is 0.083<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 566.2
-- 400 + ( ( 0.083 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 566.2
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 565.8
+- 400 + ( ( 0.083 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 565.8
 
 
 #### Factors<br />
@@ -37,30 +37,30 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                   | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                       |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           10 |     1454 | 2024-12-21 | C.S.D.E                    | L   | 0.732      | -            | -                | -                | -         |    -7.70 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
-|            9 |     1465 | 2024-12-21 | SkyFury                    | L   | 0.732      | -            | -                | -                | -         |    -7.83 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
-|            8 |     1480 | 2024-12-21 | WildHunt                   | W   | 0.731      | 0.143        | 0.000 (0.000)    | 0.034 (0.004)    | 0 (0.000) |     6.92 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
-|            7 |     2511 | 2024-11-30 | VOID GAMING (Russian team) | L   | 0.593      | -            | -                | -                | -         |   -12.00 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
-|            6 |     2542 | 2024-11-30 | ROYALS                     | L   | 0.591      | -            | -                | -                | -         |    -6.13 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
-|            5 |     2627 | 2024-11-28 | ZennoX                     | L   | 0.580      | -            | -                | -                | -         |    -7.31 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
-|            4 |     2665 | 2024-11-27 | BAKS Esports               | W   | 0.573      | 0.333        | 0.000 (0.000)    | 0.153 (0.029)    | 0 (0.000) |     7.95 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
-|            3 |     2676 | 2024-11-27 | Dark Cloud Esports         | L   | 0.572      | -            | -                | -                | -         |    -2.94 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
-|            2 |     5962 | 2024-09-29 | Podpivasi                  | L   | 0.179      | -            | -                | -                | -         |    -2.76 | bodik, Litovka, mattloo, shiny, Tuscan4ik    |
-|            1 |     5984 | 2024-09-29 | Dragon Esports Club        | W   | 0.177      | 0.143        | 0.000 (0.000)    | 0.002 (0.000)    | 0 (0.000) |     2.73 | bodik, Litovka, mattloo, shiny, Tuscan4ik    |
+|           10 |     1466 | 2024-12-21 | C.S.D.E                    | L   | 0.724      | -            | -                | -                | -         |    -7.60 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
+|            9 |     1477 | 2024-12-21 | SkyFury                    | L   | 0.724      | -            | -                | -                | -         |    -7.73 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
+|            8 |     1492 | 2024-12-21 | WildHunt                   | W   | 0.723      | 0.143        | 0.000 (0.000)    | 0.034 (0.004)    | 0 (0.000) |     6.86 | bodik, Litovka, neverl0ck, nibito, Tuscan4ik |
+|            7 |     2523 | 2024-11-30 | VOID GAMING (Russian team) | L   | 0.585      | -            | -                | -                | -         |   -11.81 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
+|            6 |     2554 | 2024-11-30 | ROYALS                     | L   | 0.583      | -            | -                | -                | -         |    -6.07 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
+|            5 |     2639 | 2024-11-28 | ZennoX                     | L   | 0.572      | -            | -                | -                | -         |    -7.19 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
+|            4 |     2677 | 2024-11-27 | BAKS Esports               | W   | 0.565      | 0.333        | 0.000 (0.000)    | 0.151 (0.028)    | 0 (0.000) |     7.85 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
+|            3 |     2688 | 2024-11-27 | Dark Cloud Esports         | L   | 0.564      | -            | -                | -                | -         |    -2.90 | bodik, Litovka, t3zisswes, Tuscan4ik, xxlafy |
+|            2 |     5974 | 2024-09-29 | Podpivasi                  | L   | 0.171      | -            | -                | -                | -         |    -2.63 | bodik, Litovka, mattloo, shiny, Tuscan4ik    |
+|            1 |     5996 | 2024-09-29 | Dragon Esports Club        | W   | 0.169      | 0.143        | 0.000 (0.000)    | 0.001 (0.000)    | 0 (0.000) |     2.14 | bodik, Litovka, mattloo, shiny, Tuscan4ik    |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
-- First, take the sum of their top 10 scaled winnings ($34.74)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- First, take the sum of their top 10 scaled winnings ($33.15)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 Top ten winnings for this roster:<br />
 
 | Event Date | Age Weight | Prize Winnings | Scaled Winnings |
 | :- | -: | :- | :- |
-| 2024-09-29 |      0.179 | $194.36        | $34.74          |
+| 2024-09-29 |      0.171 | $194.36        | $33.15          |
 
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

@@ -4,11 +4,11 @@ Roster: cerolzin, Lich, mello, pedrinzy, prt<br />
 Global Rank: [490](../standings_global.md)<br />
 <br />
 Region: [Americas]( ../standings_americas.md)<br />
-Regional Rank: [109]( ../standings_americas.md)<br />
+Regional Rank: [110]( ../standings_americas.md)<br />
 <br />
-Final Rank Value:  526.5<br />
+Final Rank Value:  524.5<br />
 <br />
-Final Rank Value (526.5) = Starting Rank Value (500.3) + Head To Head Adjustments (26.1)<br />
+Final Rank Value (524.5) = Starting Rank Value (500.1) + Head To Head Adjustments (24.4)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -20,8 +20,8 @@ To figure out a rosters's Starting Rank Value, first take the average of these f
 The average of these factors is 0.050<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 500.3
-- 400 + ( ( 0.050 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 500.3
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 500.1
+- 400 + ( ( 0.050 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 500.1
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent        | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                               |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |     2643 | 2024-11-28 | Dusty Roots     | L   | 0.579      | -            | -                | -                | -         |    -3.93 | cerolzin, Lich, mello, pedrinzy, prt |
-|            4 |     2743 | 2024-11-25 | Floripa Stars   | W   | 0.561      | 0.371        | 0.001 (0.000)    | 0.302 (0.063)    | 0 (0.000) |    12.06 | cerolzin, Lich, mello, pedrinzy, prt |
-|            3 |     2827 | 2024-11-23 | TROPA DO TACO   | L   | 0.547      | -            | -                | -                | -         |    -3.45 | cerolzin, Lich, mello, pedrinzy, prt |
-|            2 |     3037 | 2024-11-21 | 20/70           | W   | 0.532      | 0.371        | 0.001 (0.000)    | 0.290 (0.057)    | 0 (0.000) |    11.62 | cerolzin, Lich, mello, pedrinzy, prt |
-|            1 |     3206 | 2024-11-18 | VELOX Argentina | W   | 0.512      | 0.371        | 0.000 (0.000)    | 0.266 (0.050)    | 0 (0.000) |     9.84 | cerolzin, Lich, mello, pedrinzy, prt |
+|            5 |     2655 | 2024-11-28 | Dusty Roots     | L   | 0.571      | -            | -                | -                | -         |    -3.84 | cerolzin, Lich, mello, pedrinzy, prt |
+|            4 |     2755 | 2024-11-25 | Floripa Stars   | W   | 0.553      | 0.371        | 0.001 (0.000)    | 0.296 (0.061)    | 0 (0.000) |    11.91 | cerolzin, Lich, mello, pedrinzy, prt |
+|            3 |     2839 | 2024-11-23 | TROPA DO TACO   | L   | 0.539      | -            | -                | -                | -         |    -3.39 | cerolzin, Lich, mello, pedrinzy, prt |
+|            2 |     3049 | 2024-11-21 | 20/70           | W   | 0.524      | 0.371        | 0.001 (0.000)    | 0.286 (0.056)    | 0 (0.000) |    11.45 | cerolzin, Lich, mello, pedrinzy, prt |
+|            1 |     3218 | 2024-11-18 | VELOX Argentina | W   | 0.504      | 0.371        | 0.000 (0.000)    | 0.262 (0.049)    | 0 (0.000) |     8.30 | cerolzin, Lich, mello, pedrinzy, prt |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

@@ -4,24 +4,24 @@ Roster: AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1<br />
 Global Rank: [545](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [337]( ../standings_europe.md)<br />
+Regional Rank: [336]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  482.1<br />
+Final Rank Value:  481.8<br />
 <br />
-Final Rank Value (482.1) = Starting Rank Value (464.8) + Head To Head Adjustments (17.3)<br />
+Final Rank Value (481.8) = Starting Rank Value (464.6) + Head To Head Adjustments (17.2)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
 - Bounty Offered: 0.000[<sup>1</sup>](#table2)
 - Bounty Collected: 0.127[<sup>2</sup>](#table1)
-- Opponent Network: 0.003[<sup>2</sup>](#table1)
+- Opponent Network: 0.002[<sup>2</sup>](#table1)
 - LAN Wins: 0.000[<sup>2</sup>](#table1)
 
 The average of these factors is 0.032<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
-- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 464.8
-- 400 + ( ( 0.032 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 464.8
+- 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 464.6
+- 400 + ( ( 0.032 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 464.6
 
 
 #### Factors<br />
@@ -37,28 +37,28 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                        | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                  |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           15 |      622 | 2025-02-09 | Eternal premium                 | L   | 1.000      | -            | -                | -                | -         |    -7.66 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
-|           14 |      627 | 2025-02-09 | Broken dreams                   | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    11.87 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
-|           13 |      878 | 2025-02-05 | NewBALLS                        | L   | 1.000      | -            | -                | -                | -         |    -7.51 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
-|           12 |      880 | 2025-02-05 | TEAM GELO                       | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    12.05 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
-|           11 |     2419 | 2024-12-01 | BAKS Esports                    | L   | 0.600      | -            | -                | -                | -         |    -8.38 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|           10 |     2639 | 2024-11-28 | LEON Esports                    | L   | 0.579      | -            | -                | -                | -         |    -3.18 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            9 |     2723 | 2024-11-26 | VOID GAMING (Russian team)      | W   | 0.567      | 0.333        | 0.000 (0.000)    | 0.028 (0.005)    | 0 (0.000) |     8.25 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            8 |     2855 | 2024-11-23 | HOTU                            | L   | 0.547      | -            | -                | -                | -         |    -3.41 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            7 |     3245 | 2024-11-17 | HOTU                            | L   | 0.505      | -            | -                | -                | -         |    -3.79 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            6 |     3258 | 2024-11-17 | Donstu Esports                  | W   | 0.505      | 0.143        | 0.000 (0.000)    | 0.205 (0.015)    | 0 (0.000) |     8.41 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            5 |     3274 | 2024-11-17 | Hyuga                           | L   | 0.504      | -            | -                | -                | -         |    -6.98 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            4 |     3677 | 2024-11-10 | Cerberus eSports (Russian team) | W   | 0.458      | 0.143        | 0.000 (0.000)    | 0.081 (0.005)    | 0 (0.000) |     9.49 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            3 |     3681 | 2024-11-10 | Mangustini                      | W   | 0.458      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.71 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            2 |     4070 | 2024-11-03 | HOTU                            | L   | 0.412      | -            | -                | -                | -         |    -2.85 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
-|            1 |     4079 | 2024-11-03 | Pisyatdva                       | W   | 0.411      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.28 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|           15 |      634 | 2025-02-09 | Eternal premium                 | L   | 1.000      | -            | -                | -                | -         |    -7.62 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
+|           14 |      639 | 2025-02-09 | Broken dreams                   | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    11.88 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
+|           13 |      890 | 2025-02-05 | NewBALLS                        | L   | 1.000      | -            | -                | -                | -         |    -7.51 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
+|           12 |      892 | 2025-02-05 | TEAM GELO                       | W   | 1.000      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |    12.07 | AquaRS, b1st, F0R3VER, tO0RO, TriBorgg1 |
+|           11 |     2429 | 2024-12-01 | BAKS Esports                    | L   | 0.592      | -            | -                | -                | -         |    -8.27 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|           10 |     2651 | 2024-11-28 | LEON Esports                    | L   | 0.571      | -            | -                | -                | -         |    -3.13 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            9 |     2735 | 2024-11-26 | VOID GAMING (Russian team)      | W   | 0.558      | 0.333        | 0.000 (0.000)    | 0.027 (0.005)    | 0 (0.000) |     8.15 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            8 |     2867 | 2024-11-23 | HOTU                            | L   | 0.538      | -            | -                | -                | -         |    -3.37 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            7 |     3257 | 2024-11-17 | HOTU                            | L   | 0.497      | -            | -                | -                | -         |    -3.73 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            6 |     3270 | 2024-11-17 | Donstu Esports                  | W   | 0.497      | 0.143        | 0.000 (0.000)    | 0.203 (0.014)    | 0 (0.000) |     8.28 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            5 |     3286 | 2024-11-17 | Hyuga                           | L   | 0.496      | -            | -                | -                | -         |    -6.94 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            4 |     3689 | 2024-11-10 | Cerberus eSports (Russian team) | W   | 0.450      | 0.143        | 0.000 (0.000)    | 0.080 (0.005)    | 0 (0.000) |     9.33 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            3 |     3693 | 2024-11-10 | Mangustini                      | W   | 0.450      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.62 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            2 |     4082 | 2024-11-03 | HOTU                            | L   | 0.404      | -            | -                | -                | -         |    -2.79 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
+|            1 |     4091 | 2024-11-03 | Pisyatdva                       | W   | 0.403      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.17 | AquaRS, b1st, tO0RO, TriBorgg1, turbo   |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

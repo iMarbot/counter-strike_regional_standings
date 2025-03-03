@@ -4,11 +4,11 @@ Roster: FlipiN, NaOw, taero, xJiNCh0, xNanoEL6x<br />
 Global Rank: [595](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [361]( ../standings_europe.md)<br />
+Regional Rank: [360]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  406.3<br />
+Final Rank Value:  406.2<br />
 <br />
-Final Rank Value (406.3) = Starting Rank Value (400.1) + Head To Head Adjustments (6.1)<br />
+Final Rank Value (406.2) = Starting Rank Value (400.1) + Head To Head Adjustments (6.1)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.000<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 400.1
-- 400 + ( ( 0.000 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 400.1
+- 400 + ( ( 0.000 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 400.1
 
 
 #### Factors<br />
@@ -37,23 +37,23 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                   |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           10 |     3441 | 2024-11-14 | Ex-ESC Gaming           | L   | 0.486      | -            | -                | -                | -         |    -3.12 | FlipiN, NaOw, taero, xJiNCh0, xNanoEL6x  |
-|            9 |     3486 | 2024-11-13 | Onyx Ravens             | L   | 0.480      | -            | -                | -                | -         |    -2.64 | FlipiN, NaOw, taero, xJiNCh0, xNanoEL6x  |
-|            8 |     4433 | 2024-10-28 | GOOFYBOYZ               | L   | 0.373      | -            | -                | -                | -         |    -1.53 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
-|            7 |     4613 | 2024-10-24 | RogerBall               | W   | 0.347      | 0.143        | 0.000 (0.000)    | 0.030 (0.002)    | 0 (0.000) |     6.80 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
-|            6 |     4647 | 2024-10-23 | Talaintanse             | W   | 0.340      | 0.143        | 0.000 (0.000)    | 0.015 (0.001)    | 0 (0.000) |     6.59 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
-|            5 |     4693 | 2024-10-22 | The Agency Clan         | L   | 0.333      | -            | -                | -                | -         |    -0.83 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
-|            4 |     4841 | 2024-10-19 | The Agency Clan         | W   | 0.313      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     4.96 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
-|            3 |     6110 | 2024-09-27 | Mixzada                 | L   | 0.167      | -            | -                | -                | -         |    -1.29 | Fointte, NaOw, taero, xJiNCh0, xNanoEL6x |
-|            2 |     6741 | 2024-09-18 | Turritos                | L   | 0.107      | -            | -                | -                | -         |    -1.67 | FlipiN, Fointte, NaOw, taero, xJiNCh0    |
-|            1 |     6871 | 2024-09-16 | SQUAD (Portuguese team) | L   | 0.093      | -            | -                | -                | -         |    -1.13 | FlipiN, Fointte, NaOw, taero, xJiNCh0    |
+|           10 |     3453 | 2024-11-14 | Ex-ESC Gaming           | L   | 0.478      | -            | -                | -                | -         |    -3.06 | FlipiN, NaOw, taero, xJiNCh0, xNanoEL6x  |
+|            9 |     3498 | 2024-11-13 | Onyx Ravens             | L   | 0.472      | -            | -                | -                | -         |    -2.59 | FlipiN, NaOw, taero, xJiNCh0, xNanoEL6x  |
+|            8 |     4445 | 2024-10-28 | GOOFYBOYZ               | L   | 0.365      | -            | -                | -                | -         |    -1.50 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
+|            7 |     4625 | 2024-10-24 | RogerBall               | W   | 0.339      | 0.143        | 0.000 (0.000)    | 0.030 (0.001)    | 0 (0.000) |     6.64 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
+|            6 |     4659 | 2024-10-23 | Talaintanse             | W   | 0.332      | 0.143        | 0.000 (0.000)    | 0.014 (0.001)    | 0 (0.000) |     6.43 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
+|            5 |     4705 | 2024-10-22 | The Agency Clan         | L   | 0.325      | -            | -                | -                | -         |    -0.81 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
+|            4 |     4853 | 2024-10-19 | The Agency Clan         | W   | 0.304      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     4.82 | NaOw, taero, xJiNCh0, xNanoEL6x, YuRk0   |
+|            3 |     6122 | 2024-09-27 | Mixzada                 | L   | 0.158      | -            | -                | -                | -         |    -1.22 | Fointte, NaOw, taero, xJiNCh0, xNanoEL6x |
+|            2 |     6753 | 2024-09-18 | Turritos                | L   | 0.098      | -            | -                | -                | -         |    -1.54 | FlipiN, Fointte, NaOw, taero, xJiNCh0    |
+|            1 |     6883 | 2024-09-16 | SQUAD (Portuguese team) | L   | 0.085      | -            | -                | -                | -         |    -1.04 | FlipiN, Fointte, NaOw, taero, xJiNCh0    |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

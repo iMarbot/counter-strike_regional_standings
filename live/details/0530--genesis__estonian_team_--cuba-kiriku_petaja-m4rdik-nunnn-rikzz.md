@@ -6,9 +6,9 @@ Global Rank: [530](../standings_global.md)<br />
 Region: [Europe]( ../standings_europe.md)<br />
 Regional Rank: [329]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  488.7<br />
+Final Rank Value:  488.5<br />
 <br />
-Final Rank Value (488.7) = Starting Rank Value (486.1) + Head To Head Adjustments (2.6)<br />
+Final Rank Value (488.5) = Starting Rank Value (486.1) + Head To Head Adjustments (2.3)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.043<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 486.1
-- 400 + ( ( 0.043 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 486.1
+- 400 + ( ( 0.043 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 486.1
 
 
 #### Factors<br />
@@ -37,23 +37,23 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent                  | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                    |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|           10 |     1250 | 2024-12-29 | KUUSAMO.gg                | L   | 0.786      | -            | -                | -                | -         |   -11.35 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            9 |     1288 | 2024-12-28 | EC BANGA                  | L   | 0.780      | -            | -                | -                | -         |   -12.31 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            8 |     2016 | 2024-12-08 | Truck Drivers             | L   | 0.645      | -            | -                | -                | -         |    -5.86 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            7 |     3224 | 2024-11-17 | ANimaleGG                 | W   | 0.507      | 0.143        | 0.000 (0.000)    | 0.056 (0.004)    | 0 (0.000) |     7.36 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            6 |     3650 | 2024-11-10 | Truck Drivers             | W   | 0.460      | 0.143        | 0.002 (0.000)    | 0.122 (0.008)    | 0 (0.000) |    10.59 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            5 |     4035 | 2024-11-03 | Godne                     | W   | 0.414      | 0.143        | 0.000 (0.000)    | 0.045 (0.003)    | 0 (0.000) |     4.59 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            4 |     4461 | 2024-10-27 | M1Z                       | W   | 0.366      | 0.143        | 0.000 (0.000)    | 0.113 (0.006)    | 0 (0.000) |     4.43 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            3 |     4789 | 2024-10-20 | W2TE                      | W   | 0.319      | 0.143        | 0.000 (0.000)    | 0.013 (0.001)    | 0 (0.000) |     3.86 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            2 |     5135 | 2024-10-13 | FullShock (Estonian team) | W   | 0.272      | 0.143        | 0.000 (0.000)    | 0.017 (0.001)    | 0 (0.000) |     3.25 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
-|            1 |     5511 | 2024-10-06 | SHOO7ERS                  | L   | 0.226      | -            | -                | -                | -         |    -1.99 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|           10 |     1262 | 2024-12-29 | KUUSAMO.gg                | L   | 0.778      | -            | -                | -                | -         |   -11.23 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            9 |     1300 | 2024-12-28 | EC BANGA                  | L   | 0.772      | -            | -                | -                | -         |   -12.16 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            8 |     2028 | 2024-12-08 | Truck Drivers             | L   | 0.636      | -            | -                | -                | -         |    -5.78 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            7 |     3236 | 2024-11-17 | ANimaleGG                 | W   | 0.499      | 0.143        | 0.000 (0.000)    | 0.055 (0.004)    | 0 (0.000) |     7.26 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            6 |     3662 | 2024-11-10 | Truck Drivers             | W   | 0.452      | 0.143        | 0.002 (0.000)    | 0.120 (0.008)    | 0 (0.000) |    10.40 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            5 |     4047 | 2024-11-03 | Godne                     | W   | 0.405      | 0.143        | 0.000 (0.000)    | 0.045 (0.003)    | 0 (0.000) |     4.51 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            4 |     4473 | 2024-10-27 | M1Z                       | W   | 0.358      | 0.143        | 0.000 (0.000)    | 0.111 (0.006)    | 0 (0.000) |     4.33 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            3 |     4801 | 2024-10-20 | W2TE                      | W   | 0.311      | 0.143        | 0.000 (0.000)    | 0.012 (0.001)    | 0 (0.000) |     3.76 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            2 |     5147 | 2024-10-13 | FullShock (Estonian team) | W   | 0.264      | 0.143        | 0.000 (0.000)    | 0.017 (0.001)    | 0 (0.000) |     3.16 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
+|            1 |     5523 | 2024-10-06 | SHOO7ERS                  | L   | 0.218      | -            | -                | -                | -         |    -1.92 | Cuba, Kirikuõpetaja, M4rdik, Nunnn, rikzz |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

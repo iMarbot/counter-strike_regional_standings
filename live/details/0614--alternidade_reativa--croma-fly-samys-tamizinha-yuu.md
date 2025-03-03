@@ -4,11 +4,11 @@ Roster: croma, fly, samys, tamizinha, yuu<br />
 Global Rank: [614](../standings_global.md)<br />
 <br />
 Region: [Americas]( ../standings_americas.md)<br />
-Regional Rank: [141]( ../standings_americas.md)<br />
+Regional Rank: [143]( ../standings_americas.md)<br />
 <br />
-Final Rank Value:  394.5<br />
+Final Rank Value:  394.6<br />
 <br />
-Final Rank Value (394.5) = Starting Rank Value (400.0) + Head To Head Adjustments (-5.5)<br />
+Final Rank Value (394.6) = Starting Rank Value (400.0) + Head To Head Adjustments (-5.4)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.000<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 400.0
-- 400 + ( ( 0.000 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 400.0
+- 400 + ( ( 0.000 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 400.0
 
 
 #### Factors<br />
@@ -37,21 +37,21 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent       | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                            |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            8 |     4170 | 2024-11-01 | Atrix Esports  | L   | 0.401      | -            | -                | -                | -         |    -2.13 | croma, fly, samys, tamizinha, yuu |
-|            7 |     4174 | 2024-11-01 | Atrix Esports  | L   | 0.401      | -            | -                | -                | -         |    -2.17 | croma, fly, samys, tamizinha, yuu |
-|            6 |     4217 | 2024-10-31 | Tak tak queota | L   | 0.395      | -            | -                | -                | -         |    -2.46 | croma, fly, samys, tamizinha, yuu |
-|            5 |     4221 | 2024-10-31 | Tak tak queota | L   | 0.395      | -            | -                | -                | -         |    -2.51 | croma, fly, samys, tamizinha, yuu |
-|            4 |     4267 | 2024-10-30 | Girls Gift     | W   | 0.389      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.81 | croma, fly, samys, tamizinha, yuu |
-|            3 |     4270 | 2024-10-30 | Girls Gift     | W   | 0.388      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     6.01 | croma, fly, samys, tamizinha, yuu |
-|            2 |     4389 | 2024-10-28 | Capivaras      | L   | 0.375      | -            | -                | -                | -         |    -3.98 | croma, fly, samys, tamizinha, yuu |
-|            1 |     4392 | 2024-10-28 | Capivaras      | L   | 0.375      | -            | -                | -                | -         |    -4.09 | croma, fly, samys, tamizinha, yuu |
+|            8 |     4182 | 2024-11-01 | Atrix Esports  | L   | 0.393      | -            | -                | -                | -         |    -2.08 | croma, fly, samys, tamizinha, yuu |
+|            7 |     4186 | 2024-11-01 | Atrix Esports  | L   | 0.393      | -            | -                | -                | -         |    -2.13 | croma, fly, samys, tamizinha, yuu |
+|            6 |     4229 | 2024-10-31 | Tak tak queota | L   | 0.387      | -            | -                | -                | -         |    -2.41 | croma, fly, samys, tamizinha, yuu |
+|            5 |     4233 | 2024-10-31 | Tak tak queota | L   | 0.387      | -            | -                | -                | -         |    -2.46 | croma, fly, samys, tamizinha, yuu |
+|            4 |     4279 | 2024-10-30 | Girls Gift     | W   | 0.380      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.69 | croma, fly, samys, tamizinha, yuu |
+|            3 |     4282 | 2024-10-30 | Girls Gift     | W   | 0.380      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     5.88 | croma, fly, samys, tamizinha, yuu |
+|            2 |     4401 | 2024-10-28 | Capivaras      | L   | 0.367      | -            | -                | -                | -         |    -3.88 | croma, fly, samys, tamizinha, yuu |
+|            1 |     4404 | 2024-10-28 | Capivaras      | L   | 0.367      | -            | -                | -                | -         |    -3.99 | croma, fly, samys, tamizinha, yuu |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

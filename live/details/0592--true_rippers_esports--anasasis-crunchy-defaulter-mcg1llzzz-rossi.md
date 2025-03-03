@@ -6,9 +6,9 @@ Global Rank: [592](../standings_global.md)<br />
 Region: [Asia]( ../standings_asia.md)<br />
 Regional Rank: [97]( ../standings_asia.md)<br />
 <br />
-Final Rank Value:  408.1<br />
+Final Rank Value:  407.7<br />
 <br />
-Final Rank Value (408.1) = Starting Rank Value (400.1) + Head To Head Adjustments (8.0)<br />
+Final Rank Value (407.7) = Starting Rank Value (400.1) + Head To Head Adjustments (7.6)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.000<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 400.1
-- 400 + ( ( 0.000 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 400.1
+- 400 + ( ( 0.000 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 400.1
 
 
 #### Factors<br />
@@ -37,19 +37,19 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent           | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                         |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            6 |     4819 | 2024-10-20 | Gods Reign         | L   | 0.317      | -            | -                | -                | -         |    -0.65 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
-|            5 |     5967 | 2024-09-29 | Carnival Gaming    | W   | 0.178      | 0.143        | 0.000 (0.000)    | 0.023 (0.001)    | 0 (0.000) |     3.47 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
-|            4 |     5975 | 2024-09-29 | Gods Reign         | L   | 0.178      | -            | -                | -                | -         |    -0.31 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
-|            3 |     6134 | 2024-09-27 | Carnival Gaming    | W   | 0.165      | 0.143        | 0.000 (0.000)    | 0.023 (0.001)    | 0 (0.000) |     3.21 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
-|            2 |     6211 | 2024-09-26 | Brain lag E-sports | W   | 0.159      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     2.50 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
-|            1 |     6539 | 2024-09-21 | Gods Reign         | L   | 0.130      | -            | -                | -                | -         |    -0.22 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            6 |     4831 | 2024-10-20 | Gods Reign         | L   | 0.309      | -            | -                | -                | -         |    -0.62 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            5 |     5979 | 2024-09-29 | Carnival Gaming    | W   | 0.170      | 0.143        | 0.000 (0.000)    | 0.022 (0.001)    | 0 (0.000) |     3.31 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            4 |     5987 | 2024-09-29 | Gods Reign         | L   | 0.170      | -            | -                | -                | -         |    -0.29 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            3 |     6146 | 2024-09-27 | Carnival Gaming    | W   | 0.157      | 0.143        | 0.000 (0.000)    | 0.022 (0.001)    | 0 (0.000) |     3.05 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            2 |     6223 | 2024-09-26 | Brain lag E-sports | W   | 0.150      | 0.143        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     2.37 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
+|            1 |     6551 | 2024-09-21 | Gods Reign         | L   | 0.121      | -            | -                | -                | -         |    -0.21 | Anasasis, Crunchy, Defaulter, Mcg1LLzZz, Rossi |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />

@@ -4,11 +4,11 @@ Roster: Emma, Jodiee, kim, Pikkuems, Siljeeeh<br />
 Global Rank: [598](../standings_global.md)<br />
 <br />
 Region: [Europe]( ../standings_europe.md)<br />
-Regional Rank: [364]( ../standings_europe.md)<br />
+Regional Rank: [363]( ../standings_europe.md)<br />
 <br />
-Final Rank Value:  403.9<br />
+Final Rank Value:  403.8<br />
 <br />
-Final Rank Value (403.9) = Starting Rank Value (400.0) + Head To Head Adjustments (3.9)<br />
+Final Rank Value (403.8) = Starting Rank Value (400.0) + Head To Head Adjustments (3.8)<br />
 
 #### Starting Rank Value<br />
 To figure out a rosters's Starting Rank Value, first take the average of these four factors:<br />
@@ -21,7 +21,7 @@ The average of these factors is 0.000<br />
 <br />
 Next, take the maximum and minimum average across all teams and compute the following:<br />
 - 400 + ( ( Roster_Average - Min_Average ) / ( Max_Average - Min_Average ) ) * 1600 = 400.0
-- 400 + ( ( 0.000 - 0.000 ) / ( 0.801 - 0.000 ) ) * 1600 = 400.0
+- 400 + ( ( 0.000 - 0.000 ) / ( 0.800 - 0.000 ) ) * 1600 = 400.0
 
 
 #### Factors<br />
@@ -37,18 +37,18 @@ Note:<br />
 
 | Match Played | Match ID | Date       | Opponent          | W/L | Age Weight | Event Weight | Bounty Collected | Opponent Network | LAN Wins  | H2H Adj. | Roster                                |
 | -: | -: | :- | :- | :- | :- | :- | :- | :- | :- | -: | :- |
-|            5 |     4058 | 2024-11-03 | Take Flyte Female | L   | 0.412      | -            | -                | -                | -         |    -2.25 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
-|            4 |     4130 | 2024-11-02 | OneDay            | W   | 0.406      | 0.250        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     6.35 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
-|            3 |     6996 | 2024-09-14 | Permitta W        | L   | 0.079      | -            | -                | -                | -         |    -0.49 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
-|            2 |     7432 | 2024-09-07 | K27 Female        | L   | 0.032      | -            | -                | -                | -         |    -0.16 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
-|            1 |     7464 | 2024-09-07 | AaB Female        | W   | 0.031      | 0.294        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     0.49 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
+|            5 |     4070 | 2024-11-03 | Take Flyte Female | L   | 0.404      | -            | -                | -                | -         |    -2.21 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
+|            4 |     4142 | 2024-11-02 | OneDay            | W   | 0.398      | 0.250        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     6.23 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
+|            3 |     7008 | 2024-09-14 | Permitta W        | L   | 0.071      | -            | -                | -                | -         |    -0.44 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
+|            2 |     7444 | 2024-09-07 | K27 Female        | L   | 0.024      | -            | -                | -                | -         |    -0.12 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
+|            1 |     7476 | 2024-09-07 | AaB Female        | W   | 0.023      | 0.294        | 0.000 (0.000)    | 0.000 (0.000)    | 0 (0.000) |     0.36 | Emma, Jodiee, kim, Pikkuems, Siljeeeh |
 
 <br />
 <span id="table2"></span><br />
 To calculate a roster's Bounty Offered:<br />
 
 - First, take the sum of their top 10 scaled winnings ($0.00)
-- Divide that value by the 5th highest value among all rosters ($336,474.68)
+- Divide that value by the 5th highest value among all rosters ($329,538.08)
 - The final value (0.00) is scaled by the curve function.[<sup>3</sup>](#curveFunction)
 
 <span id="curveFunction"></span>_The Curve Function: 1 / ( 1 + abs( log10( x ) ) )_<br />
